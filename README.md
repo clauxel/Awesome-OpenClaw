@@ -152,6 +152,7 @@ cd openclaw
 | 6 | **AgentGPT** | [agentgpt.reworkd.ai](https://agentgpt.reworkd.ai/) | Browser-based autonomous agent | ✅ | Web UI |
 | 7 | **CrewAI** | [crewai.com](https://www.crewai.com/) | Multi-agent role collaboration | ✅ | API / custom integrations |
 | 8 | **SuperAGI** | [superagi.com](https://superagi.com/) | Autonomous agent infrastructure | ✅ | Slack, Email, API |
+| 9 | **GenericAgent** | [genericagent.org](https://www.genericagent.org/) | Agent workspace with browser, terminal, filesystem, and memory control | Not specified | Web workspace |
 
 ### First-Hour Checklist
 
