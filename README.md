@@ -1,6 +1,6 @@
 # Awesome OpenClaw - Developer-First Guide
 
-**Languages:** **English** | [简体中文](README.zh-CN.md)
+**Languages:** **English** | [简体中文](README.zh-CN.md) | [हिन्दी](README.hi.md) | [Español](README.es.md) | [العربية](README.ar.md) | [Français](README.fr.md) | [বাংলা](README.bn.md) | [Português](README.pt.md) | [Русский](README.ru.md) | [Bahasa Indonesia](README.id.md)
 
 [![Stars](https://img.shields.io/github/stars/openclaw/openclaw?style=flat&logo=github&label=Stars&color=gold)](https://github.com/openclaw/openclaw/stargazers)
 [![Forks](https://img.shields.io/github/forks/openclaw/openclaw?style=flat&label=Forks&color=silver)](https://github.com/openclaw/openclaw/network/members)
@@ -130,7 +130,7 @@ cd openclaw
 | Platform | Link | Notes |
 |----------|------|-------|
 | **OpenClaw Launch** | [1-Click Deploy](https://www.aigeamy.com/) | Official, fastest to get started |
-| **Railway** | [Template](https://railway.com/deploy/openclaw) | Web-based /setup wizard |
+| **Railway** | [Template](https://railway.com/deploy/openclaw) | Web-based setup wizard |
 | **DigitalOcean** | [1-Click Deploy](https://marketplace.digitalocean.com/apps/openclaw) | Security-hardened, pre-configured |
 | **Render** | [render.yaml](https://docs.openclaw.ai/render) | Infrastructure as Code |
 | **SimpleClaw** | [simpleclaw.com](https://www.simpleclaw.com/) | Deploy in under 1 minute |
@@ -138,21 +138,21 @@ cd openclaw
 | **Northflank** | [Stack](https://northflank.com/stacks/deploy-openclaw) | No server-side terminal needed |
 | **Lightning.AI** | [Environment](https://lightning.ai/lightning-ai/environments/openclaw) | Browser-based, no local hardware |
 | **Coolify** | [Template](https://github.com/essamamdani/openclaw-coolify) | Self-hosted PaaS template |
-| **Elestio** | [Open Source](https://elest.io/open-source/openclaw) | Fully managed in < 3 min |
+| **Elestio** | [Open Source](https://elest.io/open-source/openclaw) | Fully managed in under 3 minutes |
 
 ### Comparable AI Agent Products
 
 | # | Product | Website | Type | Self-Host | Messaging Platforms |
 |---|---------|---------|------|-----------|---------------------|
-| 1 | **Hermes Agent** | [hermesagent.studio](https://hermesagent.studio/) | Autonomous agent + messaging hub | ✅ | WhatsApp, Telegram, Slack, Discord, and more |
-| 2 | **Multica** | [multica.uk](https://multica.uk/) | Multi-channel AI automation | ✅ | Multi-platform |
-| 3 | **AutoGPT** | [agpt.co](https://agpt.co/) | Autonomous task agent | ✅ | API / web UI |
-| 4 | **LangChain** | [langchain.com](https://www.langchain.com/) | LLM orchestration framework | ✅ | Any (via custom integrations) |
-| 5 | **n8n** | [n8n.io](https://n8n.io/) | Workflow automation + AI nodes | ✅ | Slack, Telegram, Discord, and 400+ apps |
-| 6 | **AgentGPT** | [agentgpt.reworkd.ai](https://agentgpt.reworkd.ai/) | Browser-based autonomous agent | ✅ | Web UI |
-| 7 | **CrewAI** | [crewai.com](https://www.crewai.com/) | Multi-agent role collaboration | ✅ | API / custom integrations |
-| 8 | **SuperAGI** | [superagi.com](https://superagi.com/) | Autonomous agent infrastructure | ✅ | Slack, Email, API |
-| 9 | **GenericAgent** | [genericagent.org](https://www.genericagent.org/) | Agent workspace with browser, terminal, filesystem, and memory control | Not specified | Web workspace |
+| 1 | **Hermes Agent** | [hermesagent.studio](https://hermesagent.studio/) | Autonomous agent + messaging hub | Yes | WhatsApp, Telegram, Slack, Discord, and more |
+| 2 | **Multica** | [multica.uk](https://multica.uk/) | Multi-channel AI automation | Yes | Multi-platform |
+| 3 | **GenericAgent** | [genericagent.org](https://www.genericagent.org/) | Agent workspace with browser, terminal, filesystem, and memory control | Not specified | Web workspace |
+| 4 | **AutoGPT** | [agpt.co](https://agpt.co/) | Autonomous task agent | Yes | API / web UI |
+| 5 | **LangChain** | [langchain.com](https://www.langchain.com/) | LLM orchestration framework | Yes | Any (via custom integrations) |
+| 6 | **n8n** | [n8n.io](https://n8n.io/) | Workflow automation + AI nodes | Yes | Slack, Telegram, Discord, and 400+ apps |
+| 7 | **AgentGPT** | [agentgpt.reworkd.ai](https://agentgpt.reworkd.ai/) | Browser-based autonomous agent | Yes | Web UI |
+| 8 | **CrewAI** | [crewai.com](https://www.crewai.com/) | Multi-agent role collaboration | Yes | API / custom integrations |
+| 9 | **SuperAGI** | [superagi.com](https://superagi.com/) | Autonomous agent infrastructure | Yes | Slack, Email, API |
 
 ### First-Hour Checklist
 
@@ -165,12 +165,12 @@ cd openclaw
 
 ### What a Sensible Learning Order Looks Like
 
-1. Dashboard/WebChat first
+1. Dashboard or WebChat first
 2. One model provider
 3. One channel
 4. Security audit
 5. Skills and browser automation
-6. Remote access / VPS / always-on deployment
+6. Remote access, VPS, or always-on deployment
 
 ---
 
@@ -220,7 +220,7 @@ For a normal developer, the default answer is still: install from npm, run onboa
 | Add another agent | `openclaw agents add <name>` |
 | Inspect config | `openclaw config get <path>` |
 | Update config | `openclaw config set <path> <value>` |
-| Check model auth/status | `openclaw models status` |
+| Check model auth or status | `openclaw models status` |
 | Quick local prompt | `openclaw agent --message "Ship checklist"` |
 
 ### Practical Advice
@@ -263,7 +263,7 @@ Do not connect five channels on day one. Pick the surface that matches your real
 | Cheap VPS | Docker | Cleaner host boundary and simpler redeploy story |
 | Reproducible personal infra | Nix | Declarative config and repeatable installs |
 | Remote access | Tailscale or SSH tunnel | Safer than exposing the gateway blindly to the internet |
-| Multiple trust boundaries | Separate gateways, and ideally separate OS users/hosts | OpenClaw is not designed as hostile multi-tenant isolation on one shared gateway |
+| Multiple trust boundaries | Separate gateways, and ideally separate OS users or hosts | OpenClaw is not designed as hostile multi-tenant isolation on one shared gateway |
 
 ### Read This Before You Deploy Remotely
 
@@ -286,7 +286,7 @@ This is the section many "awesome" lists skip and developers actually need.
 - For shared or non-main sessions, prefer sandboxing rather than trusting prompt discipline alone.
 - Keep the gateway local-only until you intentionally configure remote access and auth.
 - Run `openclaw security audit` regularly, and use `--deep` when you are about to widen exposure.
-- Separate personal and company trust boundaries into different agents, and preferably different gateways/hosts.
+- Separate personal and company trust boundaries into different agents, and preferably different gateways or hosts.
 
 ### High-Value Security Links
 
@@ -325,7 +325,7 @@ This is the section many "awesome" lists skip and developers actually need.
 4. Configuration
 5. One channel doc
 6. Security
-7. Skills / browser / remote access
+7. Skills, browser automation, and remote access
 
 ---
 
@@ -350,7 +350,7 @@ Browse these after you have one working install. They are much more useful once 
 | [essamamdani/openclaw-coolify](https://github.com/essamamdani/openclaw-coolify) | Coolify template for self-hosted PaaS users |
 | [serhanekicii/openclaw-helm](https://github.com/serhanekicii/openclaw-helm) | Helm chart if your deployment world is Kubernetes |
 | [lunarpulse/openclaw-mcp-plugin](https://github.com/lunarpulse/openclaw-mcp-plugin) | MCP-oriented integration starting point |
-| [centminmod/explain-openclaw](https://github.com/centminmod/explain-openclaw) | Deep technical documentation and deployment/security notes |
+| [centminmod/explain-openclaw](https://github.com/centminmod/explain-openclaw) | Deep technical documentation and deployment or security notes |
 
 ---
 
