@@ -147,12 +147,13 @@ cd openclaw
 | 1 | **Hermes Agent** | [hermesagent.studio](https://hermesagent.studio/) | Autonomous agent + messaging hub | Yes | WhatsApp, Telegram, Slack, Discord, and more |
 | 2 | **Multica** | [multica.uk](https://multica.uk/) | Multi-channel AI automation | Yes | Multi-platform |
 | 3 | **GenericAgent** | [genericagent.org](https://www.genericagent.org/) | Agent workspace with browser, terminal, filesystem, and memory control | Not specified | Web workspace |
-| 4 | **AutoGPT** | [agpt.co](https://agpt.co/) | Autonomous task agent | Yes | API / web UI |
-| 5 | **LangChain** | [langchain.com](https://www.langchain.com/) | LLM orchestration framework | Yes | Any (via custom integrations) |
-| 6 | **n8n** | [n8n.io](https://n8n.io/) | Workflow automation + AI nodes | Yes | Slack, Telegram, Discord, and 400+ apps |
-| 7 | **AgentGPT** | [agentgpt.reworkd.ai](https://agentgpt.reworkd.ai/) | Browser-based autonomous agent | Yes | Web UI |
-| 8 | **CrewAI** | [crewai.com](https://www.crewai.com/) | Multi-agent role collaboration | Yes | API / custom integrations |
-| 9 | **SuperAGI** | [superagi.com](https://superagi.com/) | Autonomous agent infrastructure | Yes | Slack, Email, API |
+| 4 | **Ruflo AI** | [ruflo.online](https://ruflo.online/?utm_source=github&utm_medium=docs&utm_campaign=awesome_openclaw_related) | Hosted Ruflo-style multi-agent workspace launch layer | No | Web workspace |
+| 5 | **AutoGPT** | [agpt.co](https://agpt.co/) | Autonomous task agent | Yes | API / web UI |
+| 6 | **LangChain** | [langchain.com](https://www.langchain.com/) | LLM orchestration framework | Yes | Any (via custom integrations) |
+| 7 | **n8n** | [n8n.io](https://n8n.io/) | Workflow automation + AI nodes | Yes | Slack, Telegram, Discord, and 400+ apps |
+| 8 | **AgentGPT** | [agentgpt.reworkd.ai](https://agentgpt.reworkd.ai/) | Browser-based autonomous agent | Yes | Web UI |
+| 9 | **CrewAI** | [crewai.com](https://www.crewai.com/) | Multi-agent role collaboration | Yes | API / custom integrations |
+| 10 | **SuperAGI** | [superagi.com](https://superagi.com/) | Autonomous agent infrastructure | Yes | Slack, Email, API |
 
 ### First-Hour Checklist
 
