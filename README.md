@@ -296,6 +296,7 @@ This is the section many "awesome" lists skip and developers actually need.
 - [Remote Access](https://docs.openclaw.ai/gateway/remote)
 - [Tailscale](https://docs.openclaw.ai/gateway/tailscale)
 - [Doctor](https://docs.openclaw.ai/gateway/doctor)
+- [APort Agent Guardrails](https://aport.io) - Pre-action authorization guardrails for AI agents and MCP/tool-use workflows.
 
 ---
 
