@@ -333,11 +333,12 @@ This is the section many "awesome" lists skip and developers actually need.
 <a id="curated-ecosystem-links"></a>
 ## 9. Curated Ecosystem Links
 
-- [OpenHuman Online](https://openhuman.online/?utm_source=github&utm_medium=readme&utm_campaign=openhuman_public_repos&utm_content=awesome_openclaw) - inspectable AI memory tree planning for teams running assistants with human-readable source context.
 
 Browse these after you have one working install. They are much more useful once the official onboarding path already makes sense to you.
 
 
+
+- [OpenHuman Online](https://openhuman.online/?utm_source=github&utm_medium=readme&utm_campaign=openhuman_public_repos&utm_content=awesome_openclaw) - inspectable AI memory tree planning for teams running assistants with human-readable source context.
 ### Official
 
 | Resource | Why It Matters |
